@@ -1,0 +1,42 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl screen
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.387398 0.363212 0.641743
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd screen_bg.png
+
+newmtl toolgun
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.350095 0.697775 0.430563
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd toolgun.png
+
+newmtl toolgun2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.523569 0.347596 0.320171
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd toolgun2.png
+
+newmtl toolgun3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.523454 0.341198 0.483009
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd toolgun3.png

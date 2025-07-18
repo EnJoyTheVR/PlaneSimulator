@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e904c826ded3443cad57e2692e178b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customModeDirectory: examplephoton
+  customModeDirectory: planesim
   luaScriptName: LHand.lua
   injections:
   - name: LHand

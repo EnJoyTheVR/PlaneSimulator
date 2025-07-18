@@ -22275,6 +22275,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8320362178939264584}
+  - {fileID: 3966781999270109200}
   - {fileID: 406530811348284154}
   - {fileID: 3966781999270109200}
   m_Father: {fileID: 2683195716759038844}
@@ -62521,7 +62522,7 @@ GameObject:
   - component: {fileID: 8320362178939264585}
   - component: {fileID: 5052651750438434225}
   m_Layer: 0
-  m_Name: RightController
+  m_Name: RightControllerETVR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62636,7 +62637,7 @@ GameObject:
   - component: {fileID: 8320362180652782120}
   - component: {fileID: 5052651750714899314}
   m_Layer: 0
-  m_Name: LeftController
+  m_Name: LeftControllerETVR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

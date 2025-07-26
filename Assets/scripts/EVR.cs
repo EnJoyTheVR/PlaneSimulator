@@ -26,8 +26,12 @@ namespace EVR
 
         public void Awake()
         {
+            DontDestroyOnLoad(this);
             spawn = GameObject.Find("spawn").transform;
-            Instantiate(PlayerSimulator, spawn);
+            GameObject Player = Instantiate(PlayerSimulator);
+            Player.transform.position = spawn.position;
+            // Player.transform.SetParent(null);
+            DontDestroyOnLoad(Player);
             // Симуляция стандартной логики загрузки уровня
             Transform LeftHandRootOBJ = GameObject.Find("LeftHandRootOBJ").transform;
             Transform RightHandRootOBJ = GameObject.Find("RightHandRootOBJ").transform;
@@ -62,6 +66,7 @@ namespace EVR
             GameObject.Find("RightControllerETVR").SetActive(usesInteraction);
             // Конец симуляции
         }
+
         private void AttachTaggedObjectTo(string tag, Transform targetRoot)
         {
             GameObject found = GameObject.Find(tag);
